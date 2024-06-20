@@ -1,0 +1,90 @@
+.mid{
+    background-image: url('../image/newname.jpg');
+    background-size:cover ;
+    height: 100vh;
+    text-align: center;
+    border-top: 0.1px solid rgb(245, 244, 242) ;
+    flex-wrap: wrap;
+}
+.mid h3{
+    margin-top: 150px;
+    color: white;
+}
+.h1para{
+    color: white;
+    font-size: 80px;
+}
+span{
+    color: rgb(255, 67, 10)
+}
+h1{
+   font-size: 30px;
+}
+.midbutton{
+    background-color: rgb(240, 66, 3);
+    padding: 10px;
+    color: white;
+    width: 200px;height: 50px;
+}
+a:hover{
+    color: brown;
+}
+.cardio{
+    background-image: url('../image/Cardio.webp');
+    height: 100vh;
+    background-size: cover;
+    border-top: 5px solid wheat;
+}
+.cardio h1{
+   padding-top: 50px;
+   font-size: 80px;
+   color: white;
+}
+.cardio span{
+    color: orangered;
+}
+.Yoga{
+    background-image: url('../image/yoga.png');
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-top: 5px solid wheat;
+}
+.Yoga h1{
+    padding-top: 50px;
+    font-size: 80px;
+    color: rgb(10, 10, 10);
+ }
+ .Yoga span{
+     color: orangered;
+ }
+
+ @media screen and (max-width:750px){
+
+    .cardio h1 {
+        padding-top: 50px;
+        font-size: 50px;
+        color: white;
+    }
+    .Yoga h1 {
+        padding-top: 50px;
+        font-size: 50px;
+        color: rgb(10, 10, 10);
+    }
+    h2 {
+        display: inline-block;
+        font-size: 1.5em;
+        
+        font-weight: bold;
+        margin-left: 20px;
+    
+    }
+    .Yoga {
+        
+        height: 70vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-top: 5px solid wheat;
+    }
+ }
+ 

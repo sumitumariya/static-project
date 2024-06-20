@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/login.css/' %}">
+
+    <style>
+        
+            
+     
+        
+    </style>
+</head>
+<body>
+   
+    
+    <form action="{% url 'home' %}" >
+       
+        <h1>Login Form</h1>
+        <input type="email" name="email" placeholder="Email" >
+        <input type="password" name="password" placeholder="Password">
+        
+        <button class="bsub" type="submit" >login</button>
+        <p>Don't have an Account? <a href="{% url 'signup' %}"> Register Now!</a></p>
+    </form>
+     
+    
+</body>
+</html>
+   {% endblock%}
